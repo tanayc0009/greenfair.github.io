@@ -1,3 +1,9 @@
+function myFunction() {
+	var preloader = document.getElementById('loading');
+	console.log(preloader);
+	preloader.style.display = 'none';
+}
+
 function toggleNavbar() {
 	document.getElementById('mainNav').classList.toggle('width');
 }
